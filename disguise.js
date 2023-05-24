@@ -177,7 +177,7 @@ instance.prototype.action = function(action) {
 			self.sendNoArg(cmd);
 			break;
 		
-		case 'play_to_end':
+		case 'play_section':
 			cmd = '/d3/showcontrol/playsection';
 			self.sendNoArg(cmd);
 			break;
