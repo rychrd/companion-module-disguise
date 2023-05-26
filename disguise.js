@@ -85,7 +85,7 @@ instance.prototype.actions = function(system) {
 
 	self.setActions({
 		'play': { label: 'Play' },
-		'play_to_end': { label: 'Play to end of section' },
+		'play_section': { label: 'Play to end of section' },
 		'loop_section': { label: 'Loop section' },
 		'stop': { label: 'Stop' },
 		'previous_section': { label: 'Previous section' },
